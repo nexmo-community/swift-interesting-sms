@@ -36,7 +36,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
     jobs:
       - linux
       - linux-release
